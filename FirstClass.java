@@ -1,9 +1,9 @@
-﻿public class FirstClass {
+public class FirstClass {
     public static void main(String[] args) {
         byte bt = 1;
         short st = 12;
         int it = 3232;
-        long lng = 3223156524;
+        long lng = 322315654;
 
         double db = mCalc(1,2,3,4);
         System.out.println(db);
