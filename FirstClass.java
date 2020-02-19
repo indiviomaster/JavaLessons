@@ -3,14 +3,21 @@ public class FirstClass {
         byte bt = 1;
         short st = 12;
         int it = 3232;
+        float flt = 123.4f;
         long lng = 322315654;
+        String strok = "Привет";
 
         double db = mCalc(1,2,3,4);
         System.out.println(db);
+        
+        System.out.println("В диапазоне");
         boolean bl = isTru1020(20,5);
         System.out.println(bl);
-        boolean bl2 = isPlus(5);
-        System.out.println(bl2);
+        System.out.println(isTru1020(15,5));
+
+        System.out.println("Положительное");
+        System.out.println(isPlus(-5));
+        System.out.println(isPlus(5));
         sayHi("Билл");
         isViYear(2020);
     }
@@ -19,7 +26,7 @@ public class FirstClass {
     }
 
     static boolean isTru1020(int a, int b){
-        if ((a+b)>10 && (a+b)<20) {
+        if ((a+b)>=10 && (a+b)<=20) {
             return true;
         } else {
             return false;
