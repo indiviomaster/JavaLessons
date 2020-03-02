@@ -109,7 +109,7 @@ public class Game {
           }
 
       }
-
+// диагонали верх справа вниз налево
       for (int i = 1; i < tab.length; i++) {
           int ddy1 = 0;
           for (int j = i; j < (tab.length-i); j++){
@@ -126,7 +126,7 @@ public class Game {
 
       }
 
-      for (int i = 1; i < tab.length-2; i++) {
+      for (int i = 1; i < tab.length-1; i++) {
           int ddy2 = 0;
           for (int j = 0; j<=i; j++){
               if (tab[j][i-j] == ch){
