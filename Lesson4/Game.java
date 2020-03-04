@@ -79,7 +79,7 @@ public class Game {
           }
       }
     }
-
+// диагонали верх слева вниз направо
      for (int i = 0; i < tab.length; i++) {
          int ddx = 0;
          for (int j = i; j < (tab.length-i); j++){
