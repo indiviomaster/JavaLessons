@@ -117,10 +117,8 @@ public class Lesson2 {
         int sevenMass [] = new int [] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
         int count = 2;
         int eightMass [];
-        eightMass = shiftMass(sevenMass, count);
+        //eightMass = shiftMass(sevenMass, count);
     }
 
-    private static int [] shiftMass(int[] sevenMass, int count) {
-
-    }
+    //private static int [] shiftMass(int[] sevenMass, int count) {    }
 }
