@@ -12,9 +12,9 @@ public class TestClassmate {
         //Group group2 = new Group("Eco");
         //Group group3 = new Group("Golf");
 
-        /*group1.addTeacher(teacher1);
+        teacher1.choiseGroup(group1);
         group1.addTeacher(teacher2);
-        group1.addTeacher(teacher3);*/
+        group1.addTeacher(teacher3);
 
         students[0] = new Student("Иванов", "Петр");
         students[1] = new Student("Сидоров", "Василий");
@@ -28,15 +28,14 @@ public class TestClassmate {
         students[9] = new Student("Мирошина", "Александра");
 
         for (int i = 0; i < 10; i++) {
-        group1.addStudent(students[i]);
-
+        students[i].choiceGroup(group1);
         }
-
-
-
 
         for (Student student : group1.getStudents()) {
             System.out.println(student);
+        }
+        for (Teacher teacher : group1.getTeachers()) {
+            System.out.println(teacher);
         }
     }
 }

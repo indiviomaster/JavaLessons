@@ -11,13 +11,13 @@ public class Teacher extends Person{
         groups = new ArrayList<>();
     }
 
-    public ArrayList<Group> getGroup() {
+    public ArrayList<Group> getGroups() {
         return groups;
     }
 
-    public void addGroup(Group grp) {
-        groups.add(grp);
-
+    public void choiseGroup(Group group) {
+        groups.add(group);
+        group.addTeacher(this);
     }
 
     @Override
