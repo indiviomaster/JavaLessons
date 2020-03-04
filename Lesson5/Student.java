@@ -20,7 +20,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{" + name + " " + surname + "}";
+        return "Студент " + name + " " + surname + " ";
     }
 }
 
