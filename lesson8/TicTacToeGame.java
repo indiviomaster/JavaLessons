@@ -46,7 +46,7 @@ public class TicTacToeGame extends JFrame {
                         copy.setIcon(new ImageIcon(img_x));
 
                         if (isWin(SYMB_X, table, DOTS_TO_WIN)) {
-                            System.out.println(SYMB_X+" win");
+
                             StartDialog dialog = new StartDialog();
                             dialog.setResultMessage("Вы победили");
                             this.dispose();
